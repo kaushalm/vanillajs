@@ -3,6 +3,13 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  padding: 10px;
+}
+
+.fontdecor{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .box1 {
@@ -25,6 +32,7 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  padding: 10px;
 }
 
 .box4 {
@@ -49,21 +57,28 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  padding: 10px;
 }
 
 .box7 {
   background-color: aqua;
-  height: 100px;
+  height: auto;
+  grid-row-start: 1;
+  grid-row-end: 4;
 }
 
 .box8 {
   background-color: blueviolet;
   height: 100px;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  
 }
 
 .box9 {
   background-color: crimson;
+  height: 100px;
+}
+
+.box10 {
+  background-color: cornflowerblue;
   height: 100px;
 }
