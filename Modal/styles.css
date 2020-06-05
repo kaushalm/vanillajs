@@ -5,12 +5,14 @@
 .modal {
   width: 60%;
   height: 200px;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 2px solid black;
   border-radius: 8px;
+  z-index: 2;
+  background-color: white;
 }
 
 .modalheader {
@@ -18,16 +20,21 @@
   justify-content: space-around;
   border-bottom: 2px solid black;
   height: 40px;
-  background-color: grey;
-  border-radius: 8px;
+  background-color: white;
 }
 
 .modalcontent {
   padding: 5px;
 }
 
-#overlay{
-    height: 100%;
-    width: 100%;
-    
+#overlay {
+  position: fixed;
+  opacity: 1;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
 }
