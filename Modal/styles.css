@@ -1,0 +1,33 @@
+* ::before ::after {
+  box-sizing: border-box;
+}
+
+.modal {
+  width: 60%;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.modalheader {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+  height: 40px;
+  background-color: grey;
+  border-radius: 8px;
+}
+
+.modalcontent {
+  padding: 5px;
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    
+}
