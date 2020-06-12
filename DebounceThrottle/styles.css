@@ -1,0 +1,19 @@
+#debounce {
+  margin: 10px;
+}
+
+#resultDebounce {
+  width: 100%;
+  border: 2px solid black;
+  height: 50px;
+}
+
+#throttle {
+  margin: 10px;
+}
+
+#throttleResult {
+  width: 100%;
+  border: 2px solid black;
+  height: 50px;
+}
