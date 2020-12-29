@@ -1,6 +1,7 @@
 .barParent {
   border: 2px solid black;
   width: 80%;
+  margin: 10px;
 }
 
 .progressBar {
@@ -12,14 +13,15 @@
 #interval {
   width: 10%;
   height: 25px;
+  margin: 10px;
 }
 
 html,
 body {
-  margin: 10px;
+  margin: 0px;
   height: 100%;
-  background-image: linear-gradient(0deg, black, transparent);
-  padding: 10px;
+  background-image: linear-gradient(0deg, grey, transparent);
+  padding: 0px;
 }
 
 #progress {
@@ -35,7 +37,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: 10px;
+  margin: 25px;
 }
 
 .rectangle {
@@ -74,7 +76,7 @@ body {
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   border-right: 100px solid transparent;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
