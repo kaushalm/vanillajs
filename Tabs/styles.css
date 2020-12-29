@@ -1,0 +1,48 @@
+body{
+    margin: opx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+.tab-container{
+width: 992px;
+margin: 0 auto;
+}
+
+.tab-header{
+display: flex;
+}
+
+.btn{
+    width: 33.33%;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+.btn.active {
+    border: 1px solid #cccccc;
+    border-bottom: #ffffff;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.tab-body{
+    padding: 0.5rem 1rem;
+}
+
+.tab-content{
+display: none;
+}
+
+.tab-content.active{
+display: block;
+}
+
