@@ -15,4 +15,7 @@ h1{
     left: 25%;
     transform: translate(25%, 25%);
     font-size: 100px;
+    border:1px solid white;
+    border-radius: 15px;
+    padding: 10px;
 }
