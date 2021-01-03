@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  background-image: linear-gradient(0deg, grey, transparent);
+  padding: 0px;
+}
+
+.shapes {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 25px;
+}
+
+.rectangle {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  background-color: cornflowerblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle {
+  display: flex;
+  width: 0px;
+  height: 0px;
+  border-left: 100px solid red;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-right: 100px solid transparent;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rhombus {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transform: rotate(45deg);
+  justify-content: center;
+  align-items: center;
+}
